@@ -1,5 +1,6 @@
 package com.palladite.weaponsatl;
 
+import com.palladite.weaponsatl.enchantment.ModEnchantmentEffects;
 import com.palladite.weaponsatl.registry.WATLBlocks;
 import com.palladite.weaponsatl.registry.WATLCreativeModeTabs;
 import com.palladite.weaponsatl.registry.WATLItems;
@@ -20,6 +21,8 @@ public class WeaponsATL {
         WATLBlocks.register(modEventBus);
         WATLItems.register(modEventBus);
         WATLCreativeModeTabs.register(modEventBus);
+
+        ModEnchantmentEffects.register(modEventBus);
     }
 
 }
