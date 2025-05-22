@@ -1,6 +1,7 @@
 package com.palladite.weaponsatl.registry;
 
 import com.palladite.weaponsatl.WeaponsATL;
+import com.palladite.weaponsatl.items.WindChargeCannon;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -79,6 +80,9 @@ public class WATLItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STONE_SCYTHE = ITEMS.register("stone_scythe",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> WIND_CHARGE_CANNON = ITEMS.register("wind_charge_cannon",
+            () -> new WindChargeCannon(new Item.Properties()));
     //This is how you add an example item.
 
     public static void register(IEventBus bus) {

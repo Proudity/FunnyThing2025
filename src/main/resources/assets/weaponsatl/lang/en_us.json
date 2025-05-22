@@ -33,6 +33,14 @@
   "item.weaponsatl.netherite_scythe": "Netherite Scythe",
   "item.weaponsatl.quartz_scythe": "Quartz Scythe",
   "item.weaponsatl.redstone_scythe": "Redstone Scythe",
-  "item.weaponsatl.stone_scythe": "Stone Scythe"
+  "item.weaponsatl.stone_scythe": "Stone Scythe",
+  "item.weaponsatl.wind_charge_cannon": "Wind Charge Cannon",
+
+  "creativetab.weaponsatl.example_tab": "Weapons & The Like",
+
+  "block.weaponsatl.event_horizon": "Event Horizon",
+
+  "enchantment.weaponsatl.fatality": "Fatality"
+
 
 }

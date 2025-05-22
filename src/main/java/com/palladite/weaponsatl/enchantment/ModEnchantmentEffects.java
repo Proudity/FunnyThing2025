@@ -21,3 +21,5 @@ public class ModEnchantmentEffects {
         ENTITY_ENCHANTMENT_EFFECTS.register(eventBus);
     }
 }
+
+

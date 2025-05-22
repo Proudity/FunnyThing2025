@@ -17,8 +17,8 @@ public record FatalityEffect() implements EnchantmentEntityEffect {
             EntityType.BREEZE_WIND_CHARGE.spawn(serverLevel, entity.getOnPos(), MobSpawnType.TRIGGERED);
         }
         if(enchantmentLevel == 2) {
-            EntityType.BREEZE_WIND_CHARGE.spawn(serverLevel, entity.getOnPos(), MobSpawnType.TRIGGERED);
-            EntityType.BREEZE_WIND_CHARGE.spawn(serverLevel, entity.getOnPos(), MobSpawnType.TRIGGERED);
+            EntityType.LIGHTNING_BOLT.spawn(serverLevel, entity.getOnPos(), MobSpawnType.TRIGGERED);
+            EntityType.LIGHTNING_BOLT.spawn(serverLevel, entity.getOnPos(), MobSpawnType.TRIGGERED);
         }
     }
 
